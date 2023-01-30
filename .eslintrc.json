@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["@react-native-community", "eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
+  }
+}
