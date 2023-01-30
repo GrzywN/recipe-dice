@@ -2,6 +2,11 @@
   "name": "recipe-dice",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
